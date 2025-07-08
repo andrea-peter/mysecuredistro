@@ -1,0 +1,2 @@
+# mysecuredistro
+Yocto basic distro
