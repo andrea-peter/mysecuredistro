@@ -1,6 +1,6 @@
 inherit extrausers
 
-IMAGE_INSTALL:append = "sudo"
+IMAGE_INSTALL:append = " sudo"
 IMAGE_INSTALL:append = " lynis"
 
 EXTRA_USERS_PARAMS = "\
