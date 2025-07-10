@@ -2,6 +2,7 @@ inherit extrausers
 
 IMAGE_INSTALL:append = " sudo"
 IMAGE_INSTALL:append = " lynis"
+IMAGE_INSTALL:append = " checksec"
 
 EXTRA_USERS_PARAMS = "\
     usermod -L -e 1 root; \
