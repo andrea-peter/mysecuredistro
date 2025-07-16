@@ -1,0 +1,10 @@
+[Unit]
+Description=My service timer
+
+[Timer]
+OnUnitInactiveSec=30s
+OnBootSec=30s
+AccuracySec=30s
+
+[Install]
+WantedBy=multi-user.target

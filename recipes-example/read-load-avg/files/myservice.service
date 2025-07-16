@@ -1,0 +1,6 @@
+[Unit]
+Description=My service
+
+[Service]
+User=monitoring
+ExecStart=/usr/bin/log_loadavg.sh
